@@ -1,0 +1,174 @@
+
+		-----1er ejercicio examen DIW---
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+
+  <div class="contenedor" >
+    
+    <div class="header colores">
+      <p>header</p>
+    </div>
+    
+    <div class="nav colores">
+      
+      <p>nav</p>
+    </div>
+    
+    <div class="columna colores">
+      ggg
+    </div>
+    
+    <div class="formulario colores">
+      
+      <p>formulario</p>
+    </div>
+    
+    <div class="banner colores">
+      <p>banner</p>
+    </div>
+    
+    
+    
+    <div class="footer colores">
+      <p>footer</p>
+    </div>
+    
+    
+    
+  </div>
+  
+</body>
+</html>
+
+
+-------------------------------------------------------------------------------
+				****CSS****
+
+.contenedor{
+  
+  width:800px;
+  height:500px;
+  border:1px solid black;
+  position:relative;
+  padding:3px;
+}
+
+.colores{
+  background-color:blue;
+  color:white;
+  float:left;
+  width:100%;
+  margin-bottom:8px;
+  text-align:center;
+}
+
+.header{
+  
+  height:12%;
+}
+
+.nav{
+    height:12%;
+
+}
+
+.banner{
+    height:12%;
+
+}
+
+
+.formulario{
+  
+  height:42%;
+  
+}
+
+
+
+.footer{
+    height:16%;
+
+}
+
+.columna{
+  display:none;
+}
+
+@media (min-width:680px){
+  
+  .nav{
+    width:75%;
+  }
+  .formulario{
+    width:75%;
+    height:55.5%;
+  }
+  
+  .banner{
+    width:23%;
+    height:68.5%;
+    position:absolute;
+    top:14%;
+    right:3px;
+    
+  }
+  
+  
+}
+
+
+@media (min-width:1024px){
+  
+  .nav{
+    width:100%;
+  }
+  
+  .formulario{
+    width:48.5%;
+    height:55.5%;
+    float:left;
+    margin-left:5px;
+    margin-right:5px;
+
+  }
+  
+  .columna{
+    height:55.5%;
+    float:left;
+    width:25%;
+    display:block;
+    
+  }
+  .banner{
+    width:25%;
+    height:55.5%;
+    float:left;
+    position:static;
+    
+    
+    
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
